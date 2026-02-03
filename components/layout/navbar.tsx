@@ -63,13 +63,7 @@ export function Navbar() {
                 whileHover={{ scale: 1.05 }}
                 className="flex items-center gap-3"
               >
-                <Image
-                  src="/images/logo.jpeg"
-                  alt="Charu Nagdewani Digital Marketing Agency"
-                  width={50}
-                  height={50}
-                  className="rounded-lg"
-                />
+                
                 <div className="hidden sm:block">
                   <span className="font-serif text-lg lg:text-xl font-bold gold-gradient-text">Charu Nagdewani</span>
                   <p className="text-xs text-muted-foreground">Digital Marketing Agency</p>
@@ -155,6 +149,13 @@ export function Navbar() {
             >
               <div className="flex flex-col h-full">
                 <div className="flex items-center justify-between p-4 border-b border-border">
+                  <Image
+                  src="/images/logo.jpeg"
+                  alt="Charu Nagdewani Digital Marketing Agency"
+                  width={50}
+                  height={50}
+                  className="rounded-lg"
+                />
                   <span className="font-serif font-bold text-lg">Menu</span>
                   <Button
                     variant="ghost"
