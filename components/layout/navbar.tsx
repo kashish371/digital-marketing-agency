@@ -65,7 +65,7 @@ export function Navbar() {
               >
                 <Image
                   src="/images/logo.jpeg"
-                  alt=""
+                  alt="Charu Nagdewani Digital Marketing Agency"
                   width={50}
                   height={50}
                   className="rounded-lg"
