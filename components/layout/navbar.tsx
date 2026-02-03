@@ -149,13 +149,7 @@ export function Navbar() {
             >
               <div className="flex flex-col h-full">
                 <div className="flex items-center justify-between p-4 border-b border-border">
-                  <Image
-                  src="/images/logo.jpeg"
-                  alt="Charu Nagdewani Digital Marketing Agency"
-                  width={50}
-                  height={50}
-                  className="rounded-lg"
-                />
+                  
                   <span className="font-serif font-bold text-lg">Menu</span>
                   <Button
                     variant="ghost"
